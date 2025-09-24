@@ -1,0 +1,180 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNLB/tn20Q9ajE71Qwa47bH",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/andrevbrz-coder/atividade-INPUT/blob/main/Untitled1.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "PAzCRd_0AL7c",
+        "outputId": "f7bf93cc-e5ef-48a8-f3a3-906efdecff86"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite seu nome: de\n",
+            "digite sua idade: 24\n",
+            "digite sua profissão: aotrrrrrrrr\n",
+            "seu nome e de, voce tem 24 e trabalha com/comoaotrrrrrrrr\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = str(input('digite seu nome: '))\n",
+        "idade = int(input('digite sua idade: '))\n",
+        "profissão = str(input('digite sua profissão: '))\n",
+        "print(f'seu nome e {nome}, voce tem {idade} e trabalha com/como {profissão}')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 12\n",
+        "num2 = 6\n",
+        "soma = num1 + num2\n",
+        "sub = num1 - num2\n",
+        "mult = num1 * num2\n",
+        "div = num1 / num2\n",
+        "print(f'o numero 1 e {num1}, o numero 2 e {num2}')\n",
+        "print(f'a soma e {soma}, a subitração e {sub}, a multiplicação e {mult}, a divisão e {div}')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ArF9fYhJD1_C",
+        "outputId": "6712a782-284c-4a1e-c028-9145f94e601a"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "o numero 1 e 12, o numero 2 e 6\n",
+            "a soma e 18, a subitração e 6, a multiplicação e 72, a divisão e 2.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 7\n",
+        "num2 = 2\n",
+        "soma = num1 + num2\n",
+        "sub = num1 - num2\n",
+        "mult = num1 * num2\n",
+        "div = num1 / num2\n",
+        "pot = num1 ** num2\n",
+        "print(f'o numero 1 e {num1}, o numero 2 e {num2}: ')\n",
+        "print(f'a soma e {soma}, a subitração e {sub}, a multiplicação e {mult}, a divisão e {div}, a potenciação e {pot}: ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "rDvdlglHG2bg",
+        "outputId": "5e2a251a-0499-400c-cc1e-5658bceb6f85"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "o numero 1 e 7, o numero 2 e 2: \n",
+            "a soma e 9, a subitração e 5, a multiplicação e 14, a divisão e 3.5, a potenciação e 49: \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 15\n",
+        "num2 = 5\n",
+        "soma = num1 + num2\n",
+        "sub = num1 - num2\n",
+        "mult = num1 * num2\n",
+        "div = num1 / num2\n",
+        "pot = num1 ** num2\n",
+        "print(f'o numero 1 e {num1}, o numero 2 e {num2}: ')\n",
+        "print(f'a soma e {soma}, a subitração e {sub}, a multiplicação e {mult}, a divisão e {div}, a potenciação e {pot}: ')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HumqA4SDINWH",
+        "outputId": "81cd8f1f-1e5e-45da-aeba-0c9d565a2207"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "o numero 1 e 15, o numero 2 e 5: \n",
+            "a soma e 20, a subitração e 10, a multiplicação e 75, a divisão e 3.0, a potenciação e 759375: \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int(input(\"Digite o numero de usuario: \"))\n",
+        " if numero\n",
+        "\n",
+        "\n",
+        "senha = input(\"Digite a senha: \")\n",
+        "if senha == 1234:\n",
+        "print(\"acesso permitido\")\n",
+        "else:\n",
+        "  print(\" acesso negado\")\n",
+        "\n",
+        "  numero = int(input(\"digite um numero inteiro:\"))\n",
+        "\n",
+        "  if numero % 2 ==0:\n",
+        "   print(\" numero par\")\n",
+        "else:\n",
+        "  print(\"numero impar\")"
+      ],
+      "metadata": {
+        "id": "7Sy6UQfHV7Dp"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
